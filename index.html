@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyect</title>
+    <!-- Toastify -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+<body>
+    <h1 id="title">Bienvenido a su home banking</h1>
+
+    <nav>
+        <ul>
+            <a href="index.html">
+                <li class="home">Home</li>
+            </a>
+            <a href="html/usd.html">
+                <li class="dolar">U$D</li>
+            </a>
+            <a href="html/movimientos.html">
+                <li class="move">Movimientos</li>
+            </a>
+        </ul>
+    </nav>
+
+    <main>
+        <div id="saldos">
+            <h2> Saldo disponible en su cuenta:</h2>
+            <ul>
+                <li id="CApesos">Caja de ahorro en $ </li>
+
+            </ul>
+
+            <div id="coso">
+                <form action="" id="formulario">
+                    <input type="number" step="0.01" id="input" class="inputPesos" placeholder="Ingrese un monto...">
+                    <button id="btnAdd" type="submit">Agregar dinero</button>
+                    <button id="btnRemove" type="submit">Retirar dinero</button>
+            </div>
+        </div>
+
+        <div>
+            <img src="img/icono-banca-movil.png" alt="foturra">
+        </div>
+    </main>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>

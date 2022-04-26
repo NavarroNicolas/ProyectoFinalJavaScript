@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+    min-height: 100vh;
+    overflow: hidden;
+}
+h1{
+    text-align: center;
+    background-color: #005a59;
+    color:#ffc92e;
+    padding: 20px;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    background-color: #172720;
+}
+
+nav ul li{
+    background-color: #172720;
+    color: #ecffb1;
+    margin: 0 10px;
+    font-size: 24px;
+    padding: 10px;
+}
+
+.home{
+    background-color: #005a59;
+    color:#ffc92e;
+}
+
+main{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #005a59;
+    padding: 50px;
+    min-height: 100vh;
+}
+
+main h2{
+    color:#ffc92e; 
+    margin-bottom:  50px;
+    font-size: 28px;
+    margin-top: 60px;
+}
+
+main ul li{
+    color: #ecffb1;
+    padding: 15px;
+    font-size: 20px;
+}
+
+nav ul li:hover{
+    background-color:#005a59;
+    color: #ffc92e;
+}
+
+a{
+    text-decoration: none;
+}
+
+button{
+    margin: 30px 20px;
+    padding: 10px 30px;
+    font-size: 18px;
+    color: #172720;
+    background-color: #ffc92e;
+}
+
+.parrafoPesos{
+    font-size: 22px;
+    padding: 10px;
+    color: black;
+    background-color: red;
+    text-align: center;
+}
+
+.inputPesos{
+    height: 40px;
+    width: 350px;
+    font-size: 18px;
+}
+
+
